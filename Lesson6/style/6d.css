@@ -1,0 +1,18 @@
+p {
+  font-family: "Montserrat", serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.Model {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.order {
+  font-size: 20px;
+}
+.Touchles {
+  text-decoration: underline;
+}
