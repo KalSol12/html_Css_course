@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12_flex</title>
+    <style>
+      .btns {
+        border: none;
+        background-color: rgb(25, 25, 218);
+        color: white;
+        border-radius: 9px;
+      }
+      .container {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid gray;
+        padding: 10px 15px;
+        border-radius: 10px;
+      }
+      .box-2 {
+        display: grid;
+        grid-template-rows: 20px 20px 20px;
+        row-gap: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <p>HOme</p>
+        <p>NOtification</p>
+        <p>Message</p>
+      </div>
+      <div class="box-2">
+        <button class="btns">26</button>
+        <button class="btns">5</button>
+        <button class="btns">4</button>
+      </div>
+    </div>
+  </body>
+</html>

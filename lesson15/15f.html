@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+      .container {
+        position: relative;
+        display: inline-block;
+      }
+
+      img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .tag-off {
+        position: absolute;
+        background-color: black;
+        color: white;
+        top: 10px;
+        padding: 3px;
+        right: 10px;
+      }
+      .transparent {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .transparent button {
+        padding: 5px;
+        background-color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="shirt.jpg" alt="" />
+      <div class="tag-off">20% off</div>
+      <div class="transparent">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
