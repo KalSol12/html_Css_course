@@ -4,6 +4,7 @@
   height: 57px;
   margin-bottom: 20px;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   right: 0;
